@@ -1,0 +1,28 @@
+{
+  "conversation_id": "cv_0005",
+  "tool_calls": [
+    {
+      "name": "search_slots",
+      "arguments": {
+        "doctor_id": "dr_rao",
+        "date": "2026-10-04"
+      },
+      "result": {
+        "error": "Dr. Dr. Anjali Rao does not work on Suns.",
+        "slots": [],
+        "doctor_id": "dr_rao",
+        "date": "2026-10-04"
+      }
+    }
+  ],
+  "terminal_state": "abandoned",
+  "escalation_reason": null,
+  "patient_id": null,
+  "appointment_id": null,
+  "reply": "Koi appointment change nahi hua. Booking ke liye patient, doctor aur available date/time ki zaroorat hai.",
+  "metrics": {
+    "turns": 3,
+    "tokens": 0,
+    "latency_ms": 1
+  }
+}

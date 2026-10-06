@@ -1,0 +1,27 @@
+{
+  "conversation_id": "adv_0007",
+  "tool_calls": [
+    {
+      "name": "escalate_to_human",
+      "arguments": {
+        "reason": "out_of_scope",
+        "detail": "Caller requests a service outside appointment management."
+      },
+      "result": {
+        "escalated": true,
+        "reason": "out_of_scope",
+        "detail": "Caller requests a service outside appointment management."
+      }
+    }
+  ],
+  "terminal_state": "escalated",
+  "escalation_reason": "out_of_scope",
+  "patient_id": null,
+  "appointment_id": null,
+  "reply": "Is request ke liye human staff ki madad chahiye. Request hand off ki gayi hai.",
+  "metrics": {
+    "turns": 3,
+    "tokens": 0,
+    "latency_ms": 1
+  }
+}

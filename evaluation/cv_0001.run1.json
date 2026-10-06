@@ -1,0 +1,90 @@
+{
+  "conversation_id": "cv_0001",
+  "tool_calls": [
+    {
+      "name": "search_slots",
+      "arguments": {
+        "doctor_id": "dr_rao",
+        "date": "2026-10-03"
+      },
+      "result": {
+        "doctor_id": "dr_rao",
+        "doctor_name": "Dr. Anjali Rao",
+        "date": "2026-10-03",
+        "slots": [
+          "09:00",
+          "09:30",
+          "10:00",
+          "10:15",
+          "10:30",
+          "10:45",
+          "11:00",
+          "11:15",
+          "11:30",
+          "11:45",
+          "12:00",
+          "12:15",
+          "12:30",
+          "12:45"
+        ]
+      }
+    },
+    {
+      "name": "lookup_patient",
+      "arguments": {
+        "phone": "9812200311"
+      },
+      "result": {
+        "candidates": [
+          {
+            "id": "pt_0013",
+            "name": "Harpreet Singh",
+            "phone": "9812200311",
+            "dob": "1993-10-27",
+            "guardian_of": [],
+            "appointments": [
+              {
+                "id": "ap_0010",
+                "patient_id": "pt_0013",
+                "doctor_id": "dr_rao",
+                "date": "2026-10-05",
+                "start": "13:00",
+                "end": "13:15",
+                "status": "booked"
+              }
+            ]
+          }
+        ],
+        "count": 1
+      }
+    },
+    {
+      "name": "book_appointment",
+      "arguments": {
+        "patient_id": "pt_0013",
+        "doctor_id": "dr_rao",
+        "date": "2026-10-03",
+        "start": "09:00"
+      },
+      "result": {
+        "appointment_id": "ap_0026",
+        "patient_id": "pt_0013",
+        "doctor_id": "dr_rao",
+        "date": "2026-10-03",
+        "start": "09:00",
+        "end": "09:15",
+        "status": "booked"
+      }
+    }
+  ],
+  "terminal_state": "booked",
+  "escalation_reason": null,
+  "patient_id": "pt_0013",
+  "appointment_id": "ap_0026",
+  "reply": "Appointment ap_0026 book ho gaya: 2026-10-03, 09:00.",
+  "metrics": {
+    "turns": 3,
+    "tokens": 0,
+    "latency_ms": 9
+  }
+}

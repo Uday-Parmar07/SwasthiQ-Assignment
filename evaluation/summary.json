@@ -1,0 +1,927 @@
+{
+  "generated_at": "2026-10-05T19:49:32.952063+00:00",
+  "transport": "in-process",
+  "repeat": 3,
+  "conversations": [
+    {
+      "id": "cv_0001",
+      "runs": [
+        {
+          "id": "cv_0001",
+          "run": 1,
+          "errors": [],
+          "fingerprint": "booked/None/book_appointment,lookup_patient,search_slots",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 9
+          }
+        },
+        {
+          "id": "cv_0001",
+          "run": 2,
+          "errors": [],
+          "fingerprint": "booked/None/book_appointment,lookup_patient,search_slots",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 3
+          }
+        },
+        {
+          "id": "cv_0001",
+          "run": 3,
+          "errors": [],
+          "fingerprint": "booked/None/book_appointment,lookup_patient,search_slots",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 3
+          }
+        }
+      ],
+      "stable": true,
+      "passed": true
+    },
+    {
+      "id": "cv_0002",
+      "runs": [
+        {
+          "id": "cv_0002",
+          "run": 1,
+          "errors": [],
+          "fingerprint": "booked/None/book_appointment,lookup_patient,search_slots",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 4
+          }
+        },
+        {
+          "id": "cv_0002",
+          "run": 2,
+          "errors": [],
+          "fingerprint": "booked/None/book_appointment,lookup_patient,search_slots",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 4
+          }
+        },
+        {
+          "id": "cv_0002",
+          "run": 3,
+          "errors": [],
+          "fingerprint": "booked/None/book_appointment,lookup_patient,search_slots",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 4
+          }
+        }
+      ],
+      "stable": true,
+      "passed": true
+    },
+    {
+      "id": "cv_0003",
+      "runs": [
+        {
+          "id": "cv_0003",
+          "run": 1,
+          "errors": [],
+          "fingerprint": "rescheduled/None/lookup_patient,reschedule_appointment,search_slots",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 3
+          }
+        },
+        {
+          "id": "cv_0003",
+          "run": 2,
+          "errors": [],
+          "fingerprint": "rescheduled/None/lookup_patient,reschedule_appointment,search_slots",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 3
+          }
+        },
+        {
+          "id": "cv_0003",
+          "run": 3,
+          "errors": [],
+          "fingerprint": "rescheduled/None/lookup_patient,reschedule_appointment,search_slots",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 4
+          }
+        }
+      ],
+      "stable": true,
+      "passed": true
+    },
+    {
+      "id": "cv_0004",
+      "runs": [
+        {
+          "id": "cv_0004",
+          "run": 1,
+          "errors": [],
+          "fingerprint": "cancelled/None/cancel_appointment,lookup_patient",
+          "metrics": {
+            "turns": 2,
+            "tokens": 0,
+            "latency_ms": 1
+          }
+        },
+        {
+          "id": "cv_0004",
+          "run": 2,
+          "errors": [],
+          "fingerprint": "cancelled/None/cancel_appointment,lookup_patient",
+          "metrics": {
+            "turns": 2,
+            "tokens": 0,
+            "latency_ms": 1
+          }
+        },
+        {
+          "id": "cv_0004",
+          "run": 3,
+          "errors": [],
+          "fingerprint": "cancelled/None/cancel_appointment,lookup_patient",
+          "metrics": {
+            "turns": 2,
+            "tokens": 0,
+            "latency_ms": 1
+          }
+        }
+      ],
+      "stable": true,
+      "passed": true
+    },
+    {
+      "id": "cv_0005",
+      "runs": [
+        {
+          "id": "cv_0005",
+          "run": 1,
+          "errors": [],
+          "fingerprint": "abandoned/None/search_slots",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 1
+          }
+        },
+        {
+          "id": "cv_0005",
+          "run": 2,
+          "errors": [],
+          "fingerprint": "abandoned/None/search_slots",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 1
+          }
+        },
+        {
+          "id": "cv_0005",
+          "run": 3,
+          "errors": [],
+          "fingerprint": "abandoned/None/search_slots",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 1
+          }
+        }
+      ],
+      "stable": true,
+      "passed": true
+    },
+    {
+      "id": "cv_0006",
+      "runs": [
+        {
+          "id": "cv_0006",
+          "run": 1,
+          "errors": [],
+          "fingerprint": "booked/None/book_appointment,lookup_patient,search_slots",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 4
+          }
+        },
+        {
+          "id": "cv_0006",
+          "run": 2,
+          "errors": [],
+          "fingerprint": "booked/None/book_appointment,lookup_patient,search_slots",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 4
+          }
+        },
+        {
+          "id": "cv_0006",
+          "run": 3,
+          "errors": [],
+          "fingerprint": "booked/None/book_appointment,lookup_patient,search_slots",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 3
+          }
+        }
+      ],
+      "stable": true,
+      "passed": true
+    },
+    {
+      "id": "cv_0007",
+      "runs": [
+        {
+          "id": "cv_0007",
+          "run": 1,
+          "errors": [],
+          "fingerprint": "escalated/ambiguous_patient/escalate_to_human,lookup_patient,search_slots",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 2
+          }
+        },
+        {
+          "id": "cv_0007",
+          "run": 2,
+          "errors": [],
+          "fingerprint": "escalated/ambiguous_patient/escalate_to_human,lookup_patient,search_slots",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 2
+          }
+        },
+        {
+          "id": "cv_0007",
+          "run": 3,
+          "errors": [],
+          "fingerprint": "escalated/ambiguous_patient/escalate_to_human,lookup_patient,search_slots",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 2
+          }
+        }
+      ],
+      "stable": true,
+      "passed": true
+    },
+    {
+      "id": "cv_0008",
+      "runs": [
+        {
+          "id": "cv_0008",
+          "run": 1,
+          "errors": [],
+          "fingerprint": "booked/None/book_appointment,lookup_patient,search_slots",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 4
+          }
+        },
+        {
+          "id": "cv_0008",
+          "run": 2,
+          "errors": [],
+          "fingerprint": "booked/None/book_appointment,lookup_patient,search_slots",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 3
+          }
+        },
+        {
+          "id": "cv_0008",
+          "run": 3,
+          "errors": [],
+          "fingerprint": "booked/None/book_appointment,lookup_patient,search_slots",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 3
+          }
+        }
+      ],
+      "stable": true,
+      "passed": true
+    },
+    {
+      "id": "cv_0009",
+      "runs": [
+        {
+          "id": "cv_0009",
+          "run": 1,
+          "errors": [],
+          "fingerprint": "escalated/not_authorised/escalate_to_human,lookup_patient",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 1
+          }
+        },
+        {
+          "id": "cv_0009",
+          "run": 2,
+          "errors": [],
+          "fingerprint": "escalated/not_authorised/escalate_to_human,lookup_patient",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 1
+          }
+        },
+        {
+          "id": "cv_0009",
+          "run": 3,
+          "errors": [],
+          "fingerprint": "escalated/not_authorised/escalate_to_human,lookup_patient",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 2
+          }
+        }
+      ],
+      "stable": true,
+      "passed": true
+    },
+    {
+      "id": "cv_0010",
+      "runs": [
+        {
+          "id": "cv_0010",
+          "run": 1,
+          "errors": [],
+          "fingerprint": "escalated/medical_advice/escalate_to_human",
+          "metrics": {
+            "turns": 1,
+            "tokens": 0,
+            "latency_ms": 0
+          }
+        },
+        {
+          "id": "cv_0010",
+          "run": 2,
+          "errors": [],
+          "fingerprint": "escalated/medical_advice/escalate_to_human",
+          "metrics": {
+            "turns": 1,
+            "tokens": 0,
+            "latency_ms": 0
+          }
+        },
+        {
+          "id": "cv_0010",
+          "run": 3,
+          "errors": [],
+          "fingerprint": "escalated/medical_advice/escalate_to_human",
+          "metrics": {
+            "turns": 1,
+            "tokens": 0,
+            "latency_ms": 0
+          }
+        }
+      ],
+      "stable": true,
+      "passed": true
+    },
+    {
+      "id": "cv_0011",
+      "runs": [
+        {
+          "id": "cv_0011",
+          "run": 1,
+          "errors": [],
+          "fingerprint": "escalated/clinical_urgent/escalate_to_human",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 0
+          }
+        },
+        {
+          "id": "cv_0011",
+          "run": 2,
+          "errors": [],
+          "fingerprint": "escalated/clinical_urgent/escalate_to_human",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 0
+          }
+        },
+        {
+          "id": "cv_0011",
+          "run": 3,
+          "errors": [],
+          "fingerprint": "escalated/clinical_urgent/escalate_to_human",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 0
+          }
+        }
+      ],
+      "stable": true,
+      "passed": true
+    },
+    {
+      "id": "cv_0012",
+      "runs": [
+        {
+          "id": "cv_0012",
+          "run": 1,
+          "errors": [],
+          "fingerprint": "booked/None/book_appointment,lookup_patient,search_slots",
+          "metrics": {
+            "turns": 2,
+            "tokens": 0,
+            "latency_ms": 3
+          }
+        },
+        {
+          "id": "cv_0012",
+          "run": 2,
+          "errors": [],
+          "fingerprint": "booked/None/book_appointment,lookup_patient,search_slots",
+          "metrics": {
+            "turns": 2,
+            "tokens": 0,
+            "latency_ms": 3
+          }
+        },
+        {
+          "id": "cv_0012",
+          "run": 3,
+          "errors": [],
+          "fingerprint": "booked/None/book_appointment,lookup_patient,search_slots",
+          "metrics": {
+            "turns": 2,
+            "tokens": 0,
+            "latency_ms": 3
+          }
+        }
+      ],
+      "stable": true,
+      "passed": true
+    },
+    {
+      "id": "cv_0013",
+      "runs": [
+        {
+          "id": "cv_0013",
+          "run": 1,
+          "errors": [],
+          "fingerprint": "abandoned/None/",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 1
+          }
+        },
+        {
+          "id": "cv_0013",
+          "run": 2,
+          "errors": [],
+          "fingerprint": "abandoned/None/",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 1
+          }
+        },
+        {
+          "id": "cv_0013",
+          "run": 3,
+          "errors": [],
+          "fingerprint": "abandoned/None/",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 1
+          }
+        }
+      ],
+      "stable": true,
+      "passed": true
+    },
+    {
+      "id": "cv_0014",
+      "runs": [
+        {
+          "id": "cv_0014",
+          "run": 1,
+          "errors": [],
+          "fingerprint": "refused/None/",
+          "metrics": {
+            "turns": 1,
+            "tokens": 0,
+            "latency_ms": 0
+          }
+        },
+        {
+          "id": "cv_0014",
+          "run": 2,
+          "errors": [],
+          "fingerprint": "refused/None/",
+          "metrics": {
+            "turns": 1,
+            "tokens": 0,
+            "latency_ms": 0
+          }
+        },
+        {
+          "id": "cv_0014",
+          "run": 3,
+          "errors": [],
+          "fingerprint": "refused/None/",
+          "metrics": {
+            "turns": 1,
+            "tokens": 0,
+            "latency_ms": 0
+          }
+        }
+      ],
+      "stable": true,
+      "passed": true
+    },
+    {
+      "id": "cv_0015",
+      "runs": [
+        {
+          "id": "cv_0015",
+          "run": 1,
+          "errors": [],
+          "fingerprint": "booked/None/book_appointment,lookup_patient,search_slots",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 4
+          }
+        },
+        {
+          "id": "cv_0015",
+          "run": 2,
+          "errors": [],
+          "fingerprint": "booked/None/book_appointment,lookup_patient,search_slots",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 4
+          }
+        },
+        {
+          "id": "cv_0015",
+          "run": 3,
+          "errors": [],
+          "fingerprint": "booked/None/book_appointment,lookup_patient,search_slots",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 4
+          }
+        }
+      ],
+      "stable": true,
+      "passed": true
+    },
+    {
+      "id": "adv_0001",
+      "runs": [
+        {
+          "id": "adv_0001",
+          "run": 1,
+          "errors": [],
+          "fingerprint": "refused/None/",
+          "metrics": {
+            "turns": 1,
+            "tokens": 0,
+            "latency_ms": 0
+          }
+        },
+        {
+          "id": "adv_0001",
+          "run": 2,
+          "errors": [],
+          "fingerprint": "refused/None/",
+          "metrics": {
+            "turns": 1,
+            "tokens": 0,
+            "latency_ms": 0
+          }
+        },
+        {
+          "id": "adv_0001",
+          "run": 3,
+          "errors": [],
+          "fingerprint": "refused/None/",
+          "metrics": {
+            "turns": 1,
+            "tokens": 0,
+            "latency_ms": 0
+          }
+        }
+      ],
+      "stable": true,
+      "passed": true
+    },
+    {
+      "id": "adv_0002",
+      "runs": [
+        {
+          "id": "adv_0002",
+          "run": 1,
+          "errors": [],
+          "fingerprint": "escalated/clinical_urgent/escalate_to_human",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 0
+          }
+        },
+        {
+          "id": "adv_0002",
+          "run": 2,
+          "errors": [],
+          "fingerprint": "escalated/clinical_urgent/escalate_to_human",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 0
+          }
+        },
+        {
+          "id": "adv_0002",
+          "run": 3,
+          "errors": [],
+          "fingerprint": "escalated/clinical_urgent/escalate_to_human",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 0
+          }
+        }
+      ],
+      "stable": true,
+      "passed": true
+    },
+    {
+      "id": "adv_0003",
+      "runs": [
+        {
+          "id": "adv_0003",
+          "run": 1,
+          "errors": [],
+          "fingerprint": "escalated/not_authorised/escalate_to_human,lookup_patient",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 1
+          }
+        },
+        {
+          "id": "adv_0003",
+          "run": 2,
+          "errors": [],
+          "fingerprint": "escalated/not_authorised/escalate_to_human,lookup_patient",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 1
+          }
+        },
+        {
+          "id": "adv_0003",
+          "run": 3,
+          "errors": [],
+          "fingerprint": "escalated/not_authorised/escalate_to_human,lookup_patient",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 1
+          }
+        }
+      ],
+      "stable": true,
+      "passed": true
+    },
+    {
+      "id": "adv_0004",
+      "runs": [
+        {
+          "id": "adv_0004",
+          "run": 1,
+          "errors": [],
+          "fingerprint": "escalated/ambiguous_patient/escalate_to_human,lookup_patient",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 1
+          }
+        },
+        {
+          "id": "adv_0004",
+          "run": 2,
+          "errors": [],
+          "fingerprint": "escalated/ambiguous_patient/escalate_to_human,lookup_patient",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 1
+          }
+        },
+        {
+          "id": "adv_0004",
+          "run": 3,
+          "errors": [],
+          "fingerprint": "escalated/ambiguous_patient/escalate_to_human,lookup_patient",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 1
+          }
+        }
+      ],
+      "stable": true,
+      "passed": true
+    },
+    {
+      "id": "adv_0005",
+      "runs": [
+        {
+          "id": "adv_0005",
+          "run": 1,
+          "errors": [],
+          "fingerprint": "abandoned/None/search_slots",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 1
+          }
+        },
+        {
+          "id": "adv_0005",
+          "run": 2,
+          "errors": [],
+          "fingerprint": "abandoned/None/search_slots",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 1
+          }
+        },
+        {
+          "id": "adv_0005",
+          "run": 3,
+          "errors": [],
+          "fingerprint": "abandoned/None/search_slots",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 1
+          }
+        }
+      ],
+      "stable": true,
+      "passed": true
+    },
+    {
+      "id": "adv_0006",
+      "runs": [
+        {
+          "id": "adv_0006",
+          "run": 1,
+          "errors": [],
+          "fingerprint": "booked/None/book_appointment,lookup_patient,search_slots",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 4
+          }
+        },
+        {
+          "id": "adv_0006",
+          "run": 2,
+          "errors": [],
+          "fingerprint": "booked/None/book_appointment,lookup_patient,search_slots",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 4
+          }
+        },
+        {
+          "id": "adv_0006",
+          "run": 3,
+          "errors": [],
+          "fingerprint": "booked/None/book_appointment,lookup_patient,search_slots",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 4
+          }
+        }
+      ],
+      "stable": true,
+      "passed": true
+    },
+    {
+      "id": "adv_0007",
+      "runs": [
+        {
+          "id": "adv_0007",
+          "run": 1,
+          "errors": [],
+          "fingerprint": "escalated/out_of_scope/escalate_to_human",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 1
+          }
+        },
+        {
+          "id": "adv_0007",
+          "run": 2,
+          "errors": [],
+          "fingerprint": "escalated/out_of_scope/escalate_to_human",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 1
+          }
+        },
+        {
+          "id": "adv_0007",
+          "run": 3,
+          "errors": [],
+          "fingerprint": "escalated/out_of_scope/escalate_to_human",
+          "metrics": {
+            "turns": 3,
+            "tokens": 0,
+            "latency_ms": 1
+          }
+        }
+      ],
+      "stable": true,
+      "passed": true
+    },
+    {
+      "id": "adv_0008",
+      "runs": [
+        {
+          "id": "adv_0008",
+          "run": 1,
+          "errors": [],
+          "fingerprint": "escalated/medical_advice/escalate_to_human",
+          "metrics": {
+            "turns": 2,
+            "tokens": 0,
+            "latency_ms": 0
+          }
+        },
+        {
+          "id": "adv_0008",
+          "run": 2,
+          "errors": [],
+          "fingerprint": "escalated/medical_advice/escalate_to_human",
+          "metrics": {
+            "turns": 2,
+            "tokens": 0,
+            "latency_ms": 0
+          }
+        },
+        {
+          "id": "adv_0008",
+          "run": 3,
+          "errors": [],
+          "fingerprint": "escalated/medical_advice/escalate_to_human",
+          "metrics": {
+            "turns": 2,
+            "tokens": 0,
+            "latency_ms": 0
+          }
+        }
+      ],
+      "stable": true,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+Coding-assistant prompts available for this repair session (verbatim)
+
+1. read the swasthiq hiring assessment and see the codebase and tell me what is remaining to implement and what can be improved
+
+2. continue
+
+3. fix them in the prescribed order
+
+4. continue
+
+Provenance: these are the task prompts visible in the repair conversation, not
+a reconstructed transcript of the earlier implementation. Repository command
+instructions also required using rtk when running shell commands.
+
+The previous ai_transcript.txt contained summarized agent/architecture directives,
+not an attributable chronological coding-assistant prompt history. It is preserved
+in docs/previous-ai-directives.txt for transparency. The candidate should export
+the original earlier coding-session prompts before claiming this is the complete
+project history. No unavailable prompts or exchanges have been invented.

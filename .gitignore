@@ -1,0 +1,33 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+backend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+backend/.pytest_cache/
+
+# Node / build
+frontend/node_modules/
+node_modules/
+frontend/dist/
+
+# Local-only outputs
+evaluation/diagnostic/
+*.log
+
+# Backups
+*.bak
+*backup*/
+*.git/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

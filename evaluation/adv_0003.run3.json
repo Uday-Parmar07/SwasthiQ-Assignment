@@ -1,0 +1,88 @@
+{
+  "conversation_id": "adv_0003",
+  "tool_calls": [
+    {
+      "name": "lookup_patient",
+      "arguments": {
+        "name": "deepak chauhan"
+      },
+      "result": {
+        "candidates": [
+          {
+            "id": "pt_0015",
+            "name": "Deepak Chauhan",
+            "phone": "9812200373",
+            "dob": "1980-01-19",
+            "guardian_of": []
+          }
+        ],
+        "count": 1
+      }
+    },
+    {
+      "name": "lookup_patient",
+      "arguments": {
+        "name": "sanjay rawat"
+      },
+      "result": {
+        "candidates": [
+          {
+            "id": "pt_0018",
+            "name": "Sanjay Rawat",
+            "phone": "9812200466",
+            "dob": "1971-04-02",
+            "guardian_of": []
+          }
+        ],
+        "count": 1
+      }
+    },
+    {
+      "name": "lookup_patient",
+      "arguments": {
+        "phone": "9812200466"
+      },
+      "result": {
+        "candidates": [
+          {
+            "id": "pt_0018",
+            "name": "Sanjay Rawat",
+            "phone": "9812200466",
+            "dob": "1971-04-02",
+            "guardian_of": []
+          },
+          {
+            "id": "pt_0019",
+            "name": "Kavita Rawat",
+            "phone": "9812200466",
+            "dob": "1975-08-16",
+            "guardian_of": []
+          }
+        ],
+        "count": 2
+      }
+    },
+    {
+      "name": "escalate_to_human",
+      "arguments": {
+        "reason": "not_authorised",
+        "detail": "Caller identity or intended patient could not be authorized unambiguously."
+      },
+      "result": {
+        "escalated": true,
+        "reason": "not_authorised",
+        "detail": "Caller identity or intended patient could not be authorized unambiguously."
+      }
+    }
+  ],
+  "terminal_state": "escalated",
+  "escalation_reason": "not_authorised",
+  "patient_id": null,
+  "appointment_id": null,
+  "reply": "Is patient par action lene ki authorization verify nahi hui. Human staff ko hand off kiya hai.",
+  "metrics": {
+    "turns": 3,
+    "tokens": 0,
+    "latency_ms": 1
+  }
+}

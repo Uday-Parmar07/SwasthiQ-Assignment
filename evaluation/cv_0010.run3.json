@@ -1,0 +1,27 @@
+{
+  "conversation_id": "cv_0010",
+  "tool_calls": [
+    {
+      "name": "escalate_to_human",
+      "arguments": {
+        "reason": "medical_advice",
+        "detail": "se bukhar hai, main Crocin le raha hoon."
+      },
+      "result": {
+        "escalated": true,
+        "reason": "medical_advice",
+        "detail": "se bukhar hai, main Crocin le raha hoon."
+      }
+    }
+  ],
+  "terminal_state": "escalated",
+  "escalation_reason": "medical_advice",
+  "patient_id": null,
+  "appointment_id": null,
+  "reply": "Main medical advice nahi de sakta. Aapki request clinician review ke liye hand off ki gayi hai.",
+  "metrics": {
+    "turns": 1,
+    "tokens": 0,
+    "latency_ms": 0
+  }
+}

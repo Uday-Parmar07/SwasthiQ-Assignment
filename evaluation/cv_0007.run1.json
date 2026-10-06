@@ -1,0 +1,87 @@
+{
+  "conversation_id": "cv_0007",
+  "tool_calls": [
+    {
+      "name": "lookup_patient",
+      "arguments": {
+        "name": "sharma"
+      },
+      "result": {
+        "candidates": [
+          {
+            "id": "pt_0001",
+            "name": "Rajesh Kumar Sharma",
+            "phone": "9812200011",
+            "dob": "1979-03-14",
+            "guardian_of": []
+          },
+          {
+            "id": "pt_0002",
+            "name": "R. K. Sharma",
+            "phone": "9812200042",
+            "dob": "1988-11-02",
+            "guardian_of": []
+          },
+          {
+            "id": "pt_0003",
+            "name": "Rajesh Sharma",
+            "phone": "9812200073",
+            "dob": "1995-06-21",
+            "guardian_of": []
+          }
+        ],
+        "count": 3
+      }
+    },
+    {
+      "name": "search_slots",
+      "arguments": {
+        "doctor_id": "dr_rao",
+        "date": "2026-10-03"
+      },
+      "result": {
+        "doctor_id": "dr_rao",
+        "doctor_name": "Dr. Anjali Rao",
+        "date": "2026-10-03",
+        "slots": [
+          "09:00",
+          "09:30",
+          "10:00",
+          "10:15",
+          "10:30",
+          "10:45",
+          "11:00",
+          "11:15",
+          "11:30",
+          "11:45",
+          "12:00",
+          "12:15",
+          "12:30",
+          "12:45"
+        ]
+      }
+    },
+    {
+      "name": "escalate_to_human",
+      "arguments": {
+        "reason": "ambiguous_patient",
+        "detail": "Patient lookup remained ambiguous after all caller turns."
+      },
+      "result": {
+        "escalated": true,
+        "reason": "ambiguous_patient",
+        "detail": "Patient lookup remained ambiguous after all caller turns."
+      }
+    }
+  ],
+  "terminal_state": "escalated",
+  "escalation_reason": "ambiguous_patient",
+  "patient_id": null,
+  "appointment_id": null,
+  "reply": "Patient ki pehchaan clear nahi hui. Human staff ko hand off kiya hai.",
+  "metrics": {
+    "turns": 3,
+    "tokens": 0,
+    "latency_ms": 2
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "conversation_id": "cv_0009",
+  "tool_calls": [
+    {
+      "name": "lookup_patient",
+      "arguments": {
+        "name": "lakshmi iyer"
+      },
+      "result": {
+        "candidates": [
+          {
+            "id": "pt_0012",
+            "name": "Lakshmi Iyer",
+            "phone": "9812200280",
+            "dob": "1968-05-11",
+            "guardian_of": []
+          }
+        ],
+        "count": 1
+      }
+    },
+    {
+      "name": "lookup_patient",
+      "arguments": {
+        "name": "mohit negi"
+      },
+      "result": {
+        "candidates": [
+          {
+            "id": "pt_0020",
+            "name": "Mohit Negi",
+            "phone": "9812200497",
+            "dob": "1998-09-29",
+            "guardian_of": []
+          }
+        ],
+        "count": 1
+      }
+    },
+    {
+      "name": "lookup_patient",
+      "arguments": {
+        "phone": "9812200497"
+      },
+      "result": {
+        "candidates": [
+          {
+            "id": "pt_0020",
+            "name": "Mohit Negi",
+            "phone": "9812200497",
+            "dob": "1998-09-29",
+            "guardian_of": []
+          }
+        ],
+        "count": 1
+      }
+    },
+    {
+      "name": "escalate_to_human",
+      "arguments": {
+        "reason": "not_authorised",
+        "detail": "Caller identity or intended patient could not be authorized unambiguously."
+      },
+      "result": {
+        "escalated": true,
+        "reason": "not_authorised",
+        "detail": "Caller identity or intended patient could not be authorized unambiguously."
+      }
+    }
+  ],
+  "terminal_state": "escalated",
+  "escalation_reason": "not_authorised",
+  "patient_id": null,
+  "appointment_id": null,
+  "reply": "Is patient par action lene ki authorization verify nahi hui. Human staff ko hand off kiya hai.",
+  "metrics": {
+    "turns": 3,
+    "tokens": 0,
+    "latency_ms": 1
+  }
+}

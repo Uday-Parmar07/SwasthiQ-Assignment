@@ -1,0 +1,14 @@
+{
+  "conversation_id": "cv_0013",
+  "tool_calls": [],
+  "terminal_state": "abandoned",
+  "escalation_reason": null,
+  "patient_id": null,
+  "appointment_id": null,
+  "reply": "Koi appointment change nahi hua. Booking ke liye patient, doctor aur available date/time ki zaroorat hai.",
+  "metrics": {
+    "turns": 3,
+    "tokens": 0,
+    "latency_ms": 1
+  }
+}

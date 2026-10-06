@@ -1,0 +1,55 @@
+{
+  "conversation_id": "cv_0004",
+  "tool_calls": [
+    {
+      "name": "lookup_patient",
+      "arguments": {
+        "phone": "9812200104"
+      },
+      "result": {
+        "candidates": [
+          {
+            "id": "pt_0004",
+            "name": "Priya Nair",
+            "phone": "9812200104",
+            "dob": "1991-01-30",
+            "guardian_of": [],
+            "appointments": [
+              {
+                "id": "ap_0002",
+                "patient_id": "pt_0004",
+                "doctor_id": "dr_rao",
+                "date": "2026-10-01",
+                "start": "10:00",
+                "end": "10:15",
+                "status": "booked"
+              }
+            ]
+          }
+        ],
+        "count": 1
+      }
+    },
+    {
+      "name": "cancel_appointment",
+      "arguments": {
+        "appointment_id": "ap_0002",
+        "patient_id": "pt_0004"
+      },
+      "result": {
+        "appointment_id": "ap_0002",
+        "status": "cancelled"
+      }
+    }
+  ],
+  "terminal_state": "cancelled",
+  "escalation_reason": null,
+  "patient_id": "pt_0004",
+  "appointment_id": "ap_0002",
+  "reply": "Appointment ap_0002 cancel ho gaya.",
+  "metrics": {
+    "turns": 2,
+    "tokens": 0,
+    "latency_ms": 1
+  }
+}
